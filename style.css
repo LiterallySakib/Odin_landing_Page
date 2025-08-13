@@ -1,0 +1,132 @@
+*{
+    outline: 2px solid red;
+}
+
+.title{
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+    height:70px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+}
+
+a{
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#e5e7eb;
+}
+
+#division-1{
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.div1center{
+    flex:1;
+    display:flex;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.awesome{
+    flex: 1;
+}
+
+.div1photo{
+    flex:1;
+}
+
+#division-2{
+    background-color: hsl(0, 0%, 100%);
+    height: 400px;
+    display: flex;
+}
+
+.div2center{
+    flex:1;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2title{
+    font-size: 36px;
+    color:#1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    outline: 4px solid purple;
+    text-align: center;
+    flex:0 0 auto;
+}
+
+.div2boxContent{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    flex-wrap:wrap;
+}
+
+.box1, .box2, .box3, .box4{
+    width: 200px;
+    border: #1F2937;
+    outline: 4px solid blue;
+}
+
+#division-3{
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:200px;
+}
+
+.div3center{
+    flex:1;
+}
+
+#division-4{
+    background-color: #ffffff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callToAction{
+    flex:0 1 auto;
+    height: 100px;
+    width:800px;
+}
